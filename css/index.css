@@ -1,0 +1,48 @@
+body {
+    background: url("img/windows-bg-pic.jpg");
+    background-size: cover;
+}
+div.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, .55);
+    height: 100%;
+    width: 100%;
+}
+div.login-box {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    margin-top: 10%;
+}
+div.login-box img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+div.login-box h1 {
+    font-size: 46px;
+    margin-bottom: 40px;
+}
+div.login-box input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 26px;
+}
+div.login-box a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: white;
+}
+div.login-box a:hover {
+    cursor: pointer;
+    opacity: .6;
+}
