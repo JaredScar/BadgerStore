@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="css/logged_in.css" />
 </head>
 <body>
+<div id="body">
 <!-- Start Docs Program -->
 <div class="docs-program window" id="docs-window">
     <div class="program-header">
@@ -218,6 +219,7 @@
     <div class="icon" id="docs-tab" onclick="maximizeWindow('#docs-window', '#docs-tab')">
         <img src="css/img/gitbook-logo.png" />
     </div>
+</div>
 </div>
 <!-- End Windows Footer -->
 </body>

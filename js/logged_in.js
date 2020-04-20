@@ -118,7 +118,7 @@ function hideElementsByTag(type, tag) {
     }
     $(type).attr('onclick', 'showElementsByTag(this, "' + tag + '");');
 }
-$('.window').draggable({ scroll: false });
+$('.window').draggable({ containment: '#body', scroll: false });
 $('#sublime-window').resizable();
 $('#discord-window').resizable();
 $('#docs-window').resizable();
