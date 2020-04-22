@@ -2,6 +2,86 @@ body {
     background: url("img/windows-bg-pic.jpg");
     background-size: cover;
 }
+/* Overlay TUTORIAL shit */
+div.overlay-tutorial {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.97);
+    width: 100%;
+    z-index: 1;
+    color: white;
+}
+div.overlay-container {
+    width: 50%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.overlay-info {
+    font-size: 24px;
+    line-height: 44px;
+}
+div.overlay-info b {
+    font-weight: bold;
+}
+div.overlay-info h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 62px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+div.overlay-info h3 {
+    font-size: 44px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+div.overlay-info p {
+    background-color: white;
+    display: block;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+div.overlay-info p span {
+    background-color: #F5F7F9;
+    padding: 2px;
+}
+div.overlay-info div.image {
+    width: 100%;
+    background-color: #5d5d5d;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+div.overlay-info div.image h2 {
+    font-weight: bold;
+    text-align: center;
+}
+div.overlay-info div.image img {
+    width: 100%;
+}
+div.button-continue {
+    float: right;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+div.button-continue button {
+    background-color: #F1F1F1;
+    border: 0;
+    border-radius: 5px;
+    font-size: 26px;
+    text-transform: uppercase;
+    border-right: 4px solid #b6b6b6;
+    border-bottom: 4px solid #b6b6b6;
+}
+div.button-continue button:hover {
+    border-right: 4px solid #F1F1F1;
+    border-bottom: 4px solid #F1F1F1;
+    cursor: pointer;
+}
+/* End Overlay TUTORIAL shit */
 div.overlay {
     position: absolute;
     background-color: rgba(0, 0, 0, .55);
