@@ -11,6 +11,7 @@
     <title>Badger's PC</title>
     <link rel="stylesheet" type="text/css" href="css/webReset.css" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <link rel="icon" href="css/img/avatar.gif" type="image/png">
 </head>
 <body>
     <div class="overlay-tutorial" id="tutorial">

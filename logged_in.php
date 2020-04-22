@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="css/universal.css" />
     <link rel="stylesheet" type="text/css" href="css/logged_in.css" />
+    <link rel="icon" href="css/img/avatar.gif" type="image/png">
 </head>
 <body>
 <div id="body">
@@ -97,18 +98,18 @@
                             <div class="server-box" tags="discord permission" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordweaponperms');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordWeaponPerms</div>
                             <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discorddonatorperks');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordDonatorPerks</div>
                             <div class="server-box" tags="discord permission" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordaceperms');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordAcePerms</div>
-                            <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/badgertools');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerTools</div>
+                            <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/badgertools');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerTools</div>
                             <div class="server-box" tags="discord permission" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordpedperms');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordPedPerms</div>
                             <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordvehiclesrestrict');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordVehiclesRestrict</div>
                             <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordtagids');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordTagIDs</div>
                             <div class="server-box" tags="discord" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/policeemsactivity');"><img src="css/img/police-transparent-logo.png" class="server-icon" /> PoliceEMSActivity</div>
-                            <div class="server-box" tags="discord chat" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/badgercopchat');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerCopChat</div>
-                            <div class="server-box" tags="animation misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgeranims');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerAnims</div>
-                            <div class="server-box" tags="animation misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgerbankrobbery');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerBankRobbery</div>
+                            <div class="server-box" tags="discord chat" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/badgercopchat');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerCopChat</div>
+                            <div class="server-box" tags="animation misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgeranims');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerAnims</div>
+                            <div class="server-box" tags="animation misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgerbankrobbery');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerBankRobbery</div>
                             <div class="server-box" tags="misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/vehicletrustsystem');"><img src="css/img/vehicletrust-image.png" class="server-icon" /> VehicleTrustSystem</div>
                             <div class="server-box" tags="misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/pedtrustsystem');"><img src="css/img/pedtrust-image.png" class="server-icon" /> PedTrustSystem</div>
-                            <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgervoting');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerVoting</div>
-                            <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgertracer');"><img src="css/img/badgers-badgers-badgers.gif" class="server-icon" /> BadgerTracer</div>
+                            <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgervoting');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerVoting</div>
+                            <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgertracer');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerTracer</div>
                             <div class="server-box" tags="anticheat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/fivem-keybase-anticheat');"><img src="css/img/anticheat-image.png" class="server-icon" /> Fivem Keybase Anticheat</div>
                             <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/discordreports');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordReports</div>
                         </div>
