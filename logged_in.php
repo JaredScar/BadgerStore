@@ -3,7 +3,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>Badger</title>
+    <title>Badger's PC</title>
     <link rel="stylesheet" type="text/css" href="css/webReset.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" integrity="sha256-rByPlHULObEjJ6XQxW/flG2r+22R5dKiAoef+aXWfik=" crossorigin="anonymous" />
@@ -15,6 +15,7 @@
 <body>
 <div id="body">
 <!-- Start Docs Program -->
+    <!--
 <div class="docs-program window" id="docs-window">
     <div class="program-header">
         <span><img src="css/img/gitbook-logo.png" height="20px" width="20px" style="vertical-align: text-bottom;" /></span>
@@ -29,6 +30,7 @@
         <iframe src="https://docs.badger.store" height="100%" width="100%"></iframe>
     </div>
 </div>
+-->
 <!-- End Docs Program -->
 <!-- Start FiveM Program -->
 <div class="fivem-program window" id="fivem-window">
@@ -93,6 +95,7 @@
                     <div class="script-boxes">
                         <div class="script-boxes-title">Script</div>
                         <div class="content">
+                            <!--
                             <div class="server-box" tags="discord chat" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordchatroles');">
                                 <img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordChatRoles</div>
                             <div class="server-box" tags="discord permission" onclick="openResource('https://docs.badger.store/fivem-discord-scripts/discordweaponperms');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordWeaponPerms</div>
@@ -112,6 +115,26 @@
                             <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/badgertracer');"><img src="css/img/avatar.gif" class="server-icon" /> BadgerTracer</div>
                             <div class="server-box" tags="anticheat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/fivem-keybase-anticheat');"><img src="css/img/anticheat-image.png" class="server-icon" /> Fivem Keybase Anticheat</div>
                             <div class="server-box" tags="chat misc" onclick="openResource('https://docs.badger.store/fivem-misc.-scripts/discordreports');"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordReports</div>
+                            -->
+                            <a href='https://docs.badger.store/fivem-discord-scripts/discordchatroles' target="_blank"><div class="server-box" tags="discord chat" onclick="">
+                                <img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordChatRoles</div></a>
+                            <a href="https://docs.badger.store/fivem-discord-scripts/discordweaponperms" target="_blank"><div class="server-box" tags="discord permission"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordWeaponPerms</div></a>
+                            <a href="https://docs.badger.store/fivem-discord-scripts/discorddonatorperks" target="_blank"><div class="server-box" tags="discord"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordDonatorPerks</div></a>
+                                <a href="https://docs.badger.store/fivem-discord-scripts/discordaceperms" target="_blank"><div class="server-box" tags="discord permission"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordAcePerms</div></a>
+                                    <a href="https://docs.badger.store/fivem-discord-scripts/badgertools" target="_blank"><div class="server-box" tags="discord"><img src="css/img/avatar.gif" class="server-icon" /> BadgerTools</div></a>
+                                        <a href="https://docs.badger.store/fivem-discord-scripts/discordpedperms" target="_blank"><div class="server-box" tags="discord permission"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordPedPerms</div></a>
+                                            <a href="https://docs.badger.store/fivem-discord-scripts/discordvehiclesrestrict" target="_blank"><div class="server-box" tags="discord"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordVehiclesRestrict</div></a>
+                                                <a href="https://docs.badger.store/fivem-discord-scripts/discordtagids" target="_blank"><div class="server-box" tags="discord"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordTagIDs</div></a>
+                                                    <a href="https://docs.badger.store/fivem-discord-scripts/policeemsactivity" target="_blank"><div class="server-box" tags="discord"><img src="css/img/police-transparent-logo.png" class="server-icon" /> PoliceEMSActivity</div></a>
+                                                        <a href="https://docs.badger.store/fivem-discord-scripts/badgercopchat" target="_blank"><div class="server-box" tags="discord chat"><img src="css/img/avatar.gif" class="server-icon" /> BadgerCopChat</div></a>
+                                                            <a href="https://docs.badger.store/fivem-misc.-scripts/badgeranims" target="_blank"><div class="server-box" tags="animation misc"><img src="css/img/avatar.gif" class="server-icon" /> BadgerAnims</div></a>
+                                                                <a href="https://docs.badger.store/fivem-misc.-scripts/badgerbankrobbery" target="_blank"><div class="server-box" tags="animation misc"><img src="css/img/avatar.gif" class="server-icon" /> BadgerBankRobbery</div></a>
+                                                                    <a href="https://docs.badger.store/fivem-misc.-scripts/vehicletrustsystem" target="_blank"><div class="server-box" tags="misc"><img src="css/img/vehicletrust-image.png" class="server-icon" /> VehicleTrustSystem</div></a>
+                                                                        <a href="https://docs.badger.store/fivem-misc.-scripts/pedtrustsystem" target="_blank"><div class="server-box" tags="misc"><img src="css/img/pedtrust-image.png" class="server-icon" /> PedTrustSystem</div></a>
+                                                                            <a href="https://docs.badger.store/fivem-misc.-scripts/badgervoting" target="_blank"><div class="server-box" tags="chat misc"><img src="css/img/avatar.gif" class="server-icon" /> BadgerVoting</div></a>
+                                                                                <a href="https://docs.badger.store/fivem-misc.-scripts/badgertracer" target="_blank"><div class="server-box" tags="chat misc"><img src="css/img/avatar.gif" class="server-icon" /> BadgerTracer</div></a>
+                                                                                    <a href="https://docs.badger.store/fivem-misc.-scripts/fivem-keybase-anticheat" target="_blank"><div class="server-box" tags="anticheat misc"><img src="css/img/anticheat-image.png" class="server-icon" /> Fivem Keybase Anticheat</div></a>
+                                                                                        <a href="https://docs.badger.store/fivem-misc.-scripts/discordreports" target="_blank"><div class="server-box" tags="chat misc"><img src="css/img/discord-transparent-logo.png" class="server-icon" /> DiscordReports</div></a>
                         </div>
                     </div>
             </div>
@@ -121,6 +144,7 @@
 </div>
 <!-- End FiveM Program -->
 <!-- Start Discord Program -->
+    <!--
     <div class="discord-program window" id="discord-window">
         <div class="program-header">
             <span><img src="css/img/discord-transparent-logo.png" height="20px" width="20px" style="vertical-align: text-bottom;" /></span>
@@ -150,18 +174,19 @@
             </div>
         </div>
     </div>
+    -->
 <!-- End GitHub Program -->
 <!-- Start GitHub Program -->
     <div class="github-program window" id="github-window">
         <div class="program-header">
             <span><img src="css/img/github-transparent-logo.png" height="20px" width="20px" style="vertical-align: text-bottom;" /></span>
-            <span>Badger's GitHub</span>
+            <span>My GitHub</span>
             <div class="buttons">
                 <button onclick="minimizeWindow('#github-window', '#github-tab');"><i class="fas fa-window-minimize"></i></button>
                 <button onclick="closeWindow('#github-window', '#github-tab');"><i class="fas fa-times"></i></button>
             </div>
         </div>
-        <div class="github-card" data-github="thewolfbadger" data-width="100%" data-height="100%" data-theme="default"></div>
+        <div class="github-card" data-github="jaredscar" data-width="100%" data-height="100%" data-theme="default"></div>
     </div>
 <!-- End GitHub Program -->
 <!-- Start Sublime Program -->
@@ -176,9 +201,10 @@
             </div>
         </div>
         <div id="sublime" ondblclick="$('#sublime').attr('contentEditable', 'true'); $('#sublime').focus();" onfocusout="$(this).attr('contenteditable', 'false');">
-            <div class="h1">Hello, I'm Badger!</div>
+            <div class="h1">Hello, I'm Jared!</div>
             <br /><br />
-            <div class="para">Well, at least that's what most of my friends call me... <br /><br />I am currently studying Computer Information Technologies. <br /><br />I am from <a href="https://www.google.com/maps/place/Long+Island/@40.8466789,-74.0702086,8z/data=!3m1!4b%20%20%20%201!4m5!3m4!1s0x89e84454e1eea5cb:0x1df7f96186940d18!8m2!3d40.789142!4d-73.134961" target="_blank">Long Island, NY</a>. <br /><br />I'm a Java, Python, Lua, PHP, SQL Developer, HTML/CSS Designer, and JavaScript Coder. <br /><br /> I may of left out a few languages, but please forgive me, it's hard to keep track of everything! <br /><br />You can find my twitter <a href="http://twitter.com/JaredScaritoo" target="_blank">here</a>. <br /><br />You can find my LinkedIn <a href="https://www.linkedin.com/in/jared-scarito-51b545130" target="_blank">here</a>. <br /><br />You can always email me <a href="mailto:me@jaredscarito.com">here</a> if you just want to say hi!</div>
+            <div class="para">Well, at least that's what most of my friends call me...<br /><br />
+                You can just call me Badger! <br /><br />I am currently studying Computer Information Technologies. <br /><br />I am from <a href="https://www.google.com/maps/place/Long+Island/@40.8466789,-74.0702086,8z/data=!3m1!4b%20%20%20%201!4m5!3m4!1s0x89e84454e1eea5cb:0x1df7f96186940d18!8m2!3d40.789142!4d-73.134961" target="_blank">Long Island, NY</a>. <br /><br />I'm a Java, Python, Lua, PHP, SQL Developer, HTML/CSS Designer, and JavaScript Coder. <br /><br /> I may of left out a few languages, but please forgive me, it's hard to keep track of everything! <br /><br />You can find my twitter <a href="http://twitter.com/JaredScaritoo" target="_blank">here</a>. <br /><br />You can find my LinkedIn <a href="https://www.linkedin.com/in/jared-scarito-51b545130" target="_blank">here</a>. <br /><br />You can always email me <a href="mailto:me@jaredscarito.com">here</a> if you just want to say hi!</div>
         </div>
     </div>
 <!-- End Sublime Program -->
@@ -211,15 +237,29 @@
     <div class="icon" id="github-tab" onclick="maximizeWindow('#github-window', '#github-tab')">
         <img src="css/img/github-transparent-logo.png" />
     </div>
-    <div class="icon" id="discord-tab" onclick="maximizeWindow('#discord-window', '#discord-tab')">
-        <img src="css/img/discord-transparent-logo.png" />
-        <span class="notifications">
-            4+
-        </span>
-    </div>
-    <div class="icon" id="docs-tab" onclick="maximizeWindow('#docs-window', '#docs-tab')">
-        <img src="css/img/gitbook-logo.png" />
-    </div>
+    <a href="https://discord.com/invite/BdgEbVj" target="_blank">
+        <!--
+        <div class="icon" id="discord-tab" onclick="maximizeWindow('#discord-window', '#discord-tab')">
+            <img src="css/img/discord-transparent-logo.png" />
+            <span class="notifications">
+                4+
+            </span>
+        </div>
+        -->
+        <div class="icon" id="discord-tab" onclick="">
+            <img src="css/img/discord-transparent-logo.png" />
+        </div>
+    </a>
+    <a href="https://docs.badger.store" target="_blank">
+        <!--
+        <div class="icon" id="docs-tab" onclick="maximizeWindow('#docs-window', '#docs-tab')">
+            <img src="css/img/gitbook-logo.png" />
+        </div>
+        -->
+        <div class="icon" id="docs-tab" onclick="">
+            <img src="css/img/gitbook-logo.png" />
+        </div>
+    </a>
 </div>
 </div>
 <!-- End Windows Footer -->

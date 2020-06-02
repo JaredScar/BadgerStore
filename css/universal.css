@@ -189,6 +189,10 @@ div.script-boxes {
     width: 67%;
     height: 100%;
 }
+div.script-boxes div.content a {
+    text-decoration: none;
+    text-underline: none;
+}
 div.script-boxes .script-boxes-title {
     background-color: #2D2D2E;
     display: inline-block;
