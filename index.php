@@ -84,5 +84,9 @@
             window.location.href = 'logged_in.php'
         }
     });
+    if ($(window).width() <= 1056) {
+        // Their window is not big enough, take them to mobile
+        window.location.href = "https://jaredscarito.com/mobile";
+    }
 </script>
 </html>

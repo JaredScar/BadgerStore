@@ -1,3 +1,7 @@
+if ($(window).width() < 1056) {
+    // Their window is too small, take them to mobile
+    window.location.href = "https://jaredscarito.com/mobile";
+}
 var hidden = true;
 function toggleNav() {
     $('#navigation').children('a').each(function() {
@@ -20,7 +24,7 @@ function toggleNav() {
         hidden = true;
     }
 }
-var windows = ['#sublime-window', '#github-window', '#discord-window', '#fivem-window'];
+var windows = ['#sublime-window', '#github-window', '#discord-window', '#fivem-window', '#mail-window'];
 function minimizeWindow(id, tabID) {
     $(id).hide( "transfer", { to: $(tabID) }, 300 );
     $(tabID).attr('onclick', 'maximizeWindow("' + id + '", "' + tabID + '");');
@@ -91,7 +95,7 @@ function openResource(resourceURL) {
     }, 800);
 }
 function showElementsByTag(type, tag) {
-    var children = $('#scripts-list .script-boxes').children().children();
+    var children = $('#scripts-list .script-boxes').children().children().children();
     for (var i=0; i < children.length; i++) {
         var child = children[i];
         var tags = child.getAttribute("tags");
@@ -105,7 +109,7 @@ function showElementsByTag(type, tag) {
     $(type).attr('onclick', 'hideElementsByTag(this, "' + tag + '");');
 }
 function hideElementsByTag(type, tag) {
-    var children = $('#scripts-list .script-boxes').children().children();
+    var children = $('#scripts-list .script-boxes').children().children().children();
     for (var i=0; i < children.length; i++) {
         var child = children[i];
         var tags = child.getAttribute("tags");
@@ -122,6 +126,7 @@ $('.window').draggable({ containment: '#body', scroll: false });
 $('#sublime-window').resizable();
 $('#discord-window').resizable();
 $('#docs-window').resizable();
+$('#mail-window').resizable();
 setTimeout(function() {$('#fivem-window').hide();
 }, 900);
 setTimeout(function() {$('#github-window').hide();}, 900);

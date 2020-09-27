@@ -1,0 +1,298 @@
+
+body {
+    margin: 0;
+}
+div.wrapper {
+    height: calc(100vh - 200px);
+    overflow: hidden;
+}
+/* +812px Height */
+@media only screen and (max-device-width : 812px) and (orientation: portrait) {
+    div.wrapper {
+        /* Nothing for now */
+    }
+}
+/* END +812px Height */
+div.bg {
+    background: url("img/my-car-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 93vh;
+}
+.grecaptcha-badge {
+    opacity:0;
+    visibility: hidden;
+}
+/* START programs */
+div#programs-container {}
+div.program {
+    display: none;
+}
+div#note-program {
+    background: url("img/notes-background.png");
+    color: white;
+    height: 100vh;
+}
+div#note-program div.para {
+    font-size: 40px;
+    padding: 60px;
+}
+div.para a, div.para a:visited {
+    color: white;
+}
+
+div#mail-program {
+    background: url("../img/clouds.jpg");
+    color: white;
+    height: 100vh;
+}
+div#mail-program form#mail-form {
+    background-color: white;
+    color: black;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    border-radius: 15px;
+    height: 60%;
+}
+div.email-div {
+    padding-top: 20%;
+}
+form#mail-form h1 {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+form#mail-form div.mail-row {}
+form#mail-form label {
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+form#mail-form input {
+    font-size: 40px;
+    width: 98%;
+    margin-bottom: 30px;
+}
+form#mail-form textarea {
+    font-size: 40px;
+    font-weight: normal;
+    width: 98%;
+    height: 70%;
+    resize: none;
+}
+div#form-button {
+    text-align: right;
+}
+form#mail-form button {
+    background-color: #33BEEF;
+    border: 0;
+    border-bottom-right-radius: 5px;
+    border-right: 8px solid #247a9c;
+    border-bottom: 8px solid #247a9c;
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 60px;
+}
+form#mail-form button:hover {
+    border-right: 8px solid #33BEEF;
+    border-bottom: 8px solid #33BEEF;
+    cursor: pointer;
+}
+/* END programs */
+/* START iPhone Header */
+div.iphone-header {
+    color: white;
+    font-size: 34px;
+}
+div.iphone-header div.provider {
+    display: inline-block;
+    width: 30%;
+}
+div.iphone-header div.time {
+    display: inline-block;
+    text-align: right;
+    width: 28%;
+}
+div.iphone-header div.battery {
+    display: inline-block;
+    text-align: right;
+    width: 37%;
+}
+/* END iPhone Header */
+/* START iPhone icons */
+div.iphone-icon-row a, div.iphone-icon-row a:visited {
+    text-decoration: none;
+}
+div.iphone-icon-row {
+    width: 100%;
+}
+div.iphone-icon {
+    height: 150px;
+    width: 150px;
+    margin: 45px;
+    display: inline-block;
+    border-radius: 60px;
+    text-align: center;
+}
+div.iphone-icon:hover {
+    opacity: .78;
+}
+div.iphone-icon img {
+    height: 150px;
+    width: 150px;
+    border-radius: 40px;
+}
+div.iphone-icon label {
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 26px;
+}
+/* END iPhone icons */
+/* START iPhone footer */
+div.iphone-footer {
+    background-color: rgba(176, 176, 173, 0.37);
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
+    height: 200px;
+    padding-bottom: 45px;
+    margin-bottom: 240px;
+}
+div.iphone-footer div.iphone-icon label {}
+/* END iPhone footer */
+/* START iPhone button */
+div.iphone-button {
+    position: absolute;
+    bottom: 0;
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+div.iphone-button button {
+    border: 0;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid gray;
+    height: 200px;
+    width: 200px;
+}
+/* END iPhone button */
+/* START iPhone moving apps ghost */
+.sortable-chosen.sortable-ghost {
+    opacity: 1;
+}
+.sortable-fallback {
+    opacity: 0 !important;
+}
+/* END iPhone moving apps ghost */
+/* START iPhone shake */
+.iphone-icon:nth-child(2n) {
+    animation-name: keyframes1;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 10%;
+}
+.iphone-icon:nth-child(2n-1) {
+    animation-name: keyframes2;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: 30% 5%;
+}
+
+@keyframes keyframes1 {
+    0% {
+        transform: rotate(-1deg);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: rotate(1.5deg);
+        animation-timing-function: ease-out;
+    }
+}
+
+@keyframes keyframes2 {
+    0% {
+        transform: rotate(1deg);
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        transform: rotate(-1.5deg);
+        animation-timing-function: ease-out;
+    }
+}
+/* END iPhone shake */
+
+
+
+/* START Device Orients */
+@media screen and (orientation: landscape) {
+    div.wrapper {
+        height: 100%;
+        overflow: auto;
+        position: relative;
+    }
+    div.iphone-footer {
+        position: relative;
+        display: block;
+        margin-bottom: 0;
+    }
+
+    div.iphone-button {
+        position: relative;
+        display: block;
+    }
+
+    div.bg {
+        height: 100%;
+    }
+
+    div#note-program div.para {
+        font-size: 22px;
+        padding: 60px;
+    }
+
+    div.email-div {
+        padding-top: 1%;
+    }
+
+    form#mail-form h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    form#mail-form label {
+        font-size: 20px;
+    }
+    form#mail-form input {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    form#mail-form textarea {
+        font-size: 18px;
+        height: 55%;
+    }
+    div.mail-row {}
+    form#mail-form button {
+        font-size: 18px;
+        margin-top: 0;
+        border-right: 3px solid #247a9c;
+        border-bottom: 3px solid #247a9c;
+    }
+    form#mail-form button:hover {
+        border-right: 3px solid #33BEEF;
+        border-bottom: 3px solid #33BEEF;
+    }
+}
+/* END Device Orients */
+
+
