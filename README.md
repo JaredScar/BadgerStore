@@ -3,11 +3,9 @@ Initial Commit
 
 # Desktop Version
 
-![http://jaredscarito.com/css/img/movingWindows.gif](http://jaredscarito.com/css/img/movingWindows.gif)
+![Login Page Desktop Version](https://i.gyazo.com/d274e333e38345a6db33a7b942f6e008.png)
 
-![http://jaredscarito.com/css/img/minimizeMaximize.gif](http://jaredscarito.com/css/img/minimizeMaximize.gif)
-
-![http://jaredscarito.com/css/img/openingPrograms.gif](http://jaredscarito.com/css/img/openingPrograms.gif)
+![Home Page Desktop Version](https://i.gyazo.com/493469ea422852335a2608d050a230ac.png)
 
 # Mobile Version
 
