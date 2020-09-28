@@ -1,5 +1,4 @@
 # Official badger.store Website
-Initial Commit
 
 # Desktop Version
 
