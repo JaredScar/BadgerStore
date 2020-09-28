@@ -3,11 +3,11 @@ Initial Commit
 
 # Desktop Version
 
-![http://localhost/css/img/movingWindows.gif](http://localhost/css/img/movingWindows.gif)
+![http://jaredscarito.com/css/img/movingWindows.gif](http://jaredscarito.com/css/img/movingWindows.gif)
 
-![http://localhost/css/img/minimizeMaximize.gif](http://localhost/css/img/minimizeMaximize.gif)
+![http://jaredscarito.com/css/img/minimizeMaximize.gif](http://jaredscarito.com/css/img/minimizeMaximize.gif)
 
-![http://localhost/css/img/openingPrograms.gif](http://localhost/css/img/openingPrograms.gif)
+![http://jaredscarito.com/css/img/openingPrograms.gif](http://jaredscarito.com/css/img/openingPrograms.gif)
 
 # Mobile Version
 
