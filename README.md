@@ -1,5 +1,8 @@
 # Official badger.store Website
 
+## Jared's Developer Community [Discord]
+[![Developer Discord](https://discordapp.com/api/guilds/597445834153525298/widget.png?style=banner4)](https://discord.com/invite/WjB5VFz)
+
 # Desktop Version
 
 ![Login Page Desktop Version](https://i.gyazo.com/d274e333e38345a6db33a7b942f6e008.png)
